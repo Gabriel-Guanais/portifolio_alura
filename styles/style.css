@@ -48,7 +48,7 @@ body {
 .cabecalho__menu__item{
     font-family: var(--fonts-secundaria);
     font-weight: 600;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: var(--cor-terciaria);
     text-decoration: none;
 }
@@ -71,7 +71,7 @@ body {
 }
 
 .apresentacao__conteudo {
-    width: 615px;
+    width: 50%;
     display: flex;
     flex-direction: column;
     gap: 40px;
@@ -79,13 +79,13 @@ body {
 
 .apresentacao__conteudo__titulo {
     color: var(--cor-titulo);
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonts-primaria);
     font-weight: 400;
 }
 
 .apresentacao__conteudo__texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonts-secundaria);
     font-weight: 400;
     
@@ -102,7 +102,7 @@ body {
 .apresentacao__links__subtitulo {
     font-family: var(--fonts-primaria);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
     
 }
 
@@ -112,11 +112,11 @@ body {
     justify-content: center;
     gap: 16px;
     border:2px solid var(--cor-terciaria);
-    width: 100%;
+    width: 50%;
     max-width: 380px;
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonts-secundaria);
     font-weight: 600;
     padding: 21px 0;
@@ -134,7 +134,7 @@ body {
 /* IMG E SVG */
 
 .img__gabriel {
-    width: 100%;
+    width: 50%;
     max-width: 450px;
     border-radius: 5%;
     color: #72757e;
@@ -152,7 +152,7 @@ body {
     background-color: var(--cor-terciaria);
     padding: 24px;
     text-align: center;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonts-secundaria);
     font-weight: 400;
 }
